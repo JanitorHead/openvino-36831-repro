@@ -1,0 +1,12 @@
+detection_scrfd_det_10g
+  CPU (ground truth)      mean|out| = 0.040906
+  GPU dynamic, compile #1  mean|out| = 0.000078   diff vs CPU = 0.040975
+  GPU dynamic, compile #2  mean|out| = 0.000078   diff vs CPU = 0.040975
+  GPU dynamic, compile #3  mean|out| = 0.000078   diff vs CPU = 0.040975
+
+recognition_arcface_w600k_r50
+  CPU (ground truth)      mean|out| = 0.318564
+  GPU dynamic, compile #1  mean|out| = 0.000000   diff vs CPU = 0.318564
+  GPU dynamic, compile #2  mean|out| = 25816417527110520140518702673035264.000000   diff vs CPU = 25816417527110520140518702673035264.000000
+  GPU dynamic, compile #3  mean|out| = 25816714632719948631784678462849024.000000   diff vs CPU = 25816714632719948631784678462849024.000000
+

@@ -1,0 +1,32 @@
+openvino           2025.4.1-20426-82bbf0292c5-releases/2025/4
+available devices  ['CPU', 'GPU']
+GPU FULL_DEVICE_NAME           Intel(R) UHD Graphics (iGPU)
+GPU DEVICE_ARCHITECTURE        GPU: vendor=0x8086 arch=v11.2.0
+GPU OPTIMIZATION_CAPABILITIES  ['FP32', 'BIN', 'FP16', 'EXPORT_IMPORT']
+
+model                          variant    GPU mean|out|  mean abs diff vs CPU
+-----------------------------------------------------------------------------
+Non default env value for CACHE_DIR = /work/cache
+Non default env value for CACHE_DIR = /work/cache
+detection_scrfd_det_10g        dynamic         0.000078              0.040975
+Non default env value for CACHE_DIR = /work/cache
+Non default env value for CACHE_DIR = /work/cache
+detection_scrfd_det_10g        bounded         0.000078              0.040975
+Non default env value for CACHE_DIR = /work/cache
+Non default env value for CACHE_DIR = /work/cache
+Non default env value for CACHE_DIR = /work/cache
+detection_scrfd_det_10g        static          0.040906              0.000000
+
+Non default env value for CACHE_DIR = /work/cache
+Non default env value for CACHE_DIR = /work/cache
+Non default env value for CACHE_DIR = /work/cache
+recognition_arcface_w600k_r50  dynamic         0.000000              0.318564
+Non default env value for CACHE_DIR = /work/cache
+Non default env value for CACHE_DIR = /work/cache
+Non default env value for CACHE_DIR = /work/cache
+recognition_arcface_w600k_r50  bounded   89881201052972948992456268284166144.000000 89881201052972948992456268284166144.000000
+Non default env value for CACHE_DIR = /work/cache
+Non default env value for CACHE_DIR = /work/cache
+Non default env value for CACHE_DIR = /work/cache
+recognition_arcface_w600k_r50  static          0.318564              0.000001
+
